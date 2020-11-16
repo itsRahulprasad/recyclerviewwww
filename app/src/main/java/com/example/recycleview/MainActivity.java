@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         rcv.setLayoutManager(new LinearLayoutManager(this));
 
 
-        String arr[]={"one","two","three","four","five","six","seven","one","two","three","four","five","six","seven","one","two","three","four","five","six","seven","one","two","three","four","five","six","seven","one","two","three","four","five","six","seven",};
+        String arr[]={"one","two","three","four","five","six","seven","------------","one","two","three","four","five","six","seven","---------------","one","two","three","four","five","six","seven","-------------"};
         rcv.setAdapter(new myAdapter(arr));
 
     }
